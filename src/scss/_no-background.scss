@@ -1,0 +1,55 @@
+/* Overrides to remove all backgrounds and decorative illustrations */
+
+.is-boxed {
+    background: #ffc0cb !important;
+}
+
+.body-wrap {
+    background: #ffc0cb !important;
+}
+
+@include media('>medium') {
+    .site-header::before {
+        display: none !important;
+    }
+}
+
+.hero-figure::before,
+.hero-figure::after {
+    display: none !important;
+}
+
+.hero-figure-box-05,
+.hero-figure-box-06,
+.hero-figure-box-07 {
+    background: #ffc0cb !important;
+    box-shadow: none !important;
+}
+
+.hero-figure-box-08,
+.hero-figure-box-09,
+.hero-figure-box-10 {
+    background: #ffc0cb !important;
+}
+
+.cta-inner {
+    background: #ffc0cb !important;
+}
+
+.cta-inner::before {
+    display: none !important;
+}
+
+.pricing-table::before {
+    display: none !important;
+}
+
+hr,
+pre,
+code,
+kbd,
+tt,
+var {
+    background: #ffc0cb !important;
+}
+

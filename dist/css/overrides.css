@@ -1,0 +1,132 @@
+/* Overrides to set all backgrounds to pink and hide decorative illustrations */
+.is-boxed{background:#ffc0cb !important}
+.body-wrap{background:#ffc0cb !important}
+@media (min-width: 641px){.site-header::before{display:none !important}}
+.hero-figure::before,.hero-figure::after{display:none !important}
+.hero-figure-box-05,.hero-figure-box-06,.hero-figure-box-07{background:#ffc0cb !important;box-shadow:none !important}
+.hero-figure-box-08,.hero-figure-box-09,.hero-figure-box-10{background:#ffc0cb !important}
+.cta-inner{background:#ffc0cb !important}
+.cta-inner::before{display:none !important}
+.pricing-table::before{display:none !important}
+hr,pre,code,kbd,tt,var{background:#ffc0cb !important}
+
+/* Header layout adjustments */
+.site-header-inner {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.header-brand {
+    order: 1;
+    flex: 0 0 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-summary {
+    order: 4;
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+/* AI Web Images Container and Animation */
+.header-images-container {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    flex: 0 0 100%;
+}
+
+.ai-web-image {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    object-fit: contain;
+}
+
+.ai-web-image.active {
+    opacity: 1;
+}
+
+/* Style navigation links as interactive buttons - Dark Pink, 20% transparent, centered, same size, 15% wider */
+.header-links {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+    order: 3;
+    flex: 0 0 100%;
+}
+
+.header-links ul {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header-links a {
+    display: inline-block !important;
+    background-color: rgba(139, 21, 56, 0.8) !important; /* Dark pink with 20% transparency */
+    color: #fff !important;
+    padding: 12px 27.6px !important; /* 15% wider: 24px * 1.15 = 27.6px */
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    border: 2px solid rgba(139, 21, 56, 0.9) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    margin: 0 4px !important;
+    min-width: 115px !important; /* Same size for all buttons - 15% wider than before */
+    text-align: center !important;
+    opacity: 0.8 !important; /* 20% transparent */
+}
+
+.header-links a:hover {
+    background-color: rgba(194, 24, 91, 0.9) !important; /* Lighter dark pink on hover */
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border-color: rgba(194, 24, 91, 1) !important;
+    opacity: 0.9 !important;
+}
+
+.header-links a:active {
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    opacity: 0.7 !important;
+}
+
+/* Change font family for all text */
+body, button, input, select, textarea, a, p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Georgia, "Times New Roman", serif !important;
+}
+
+/* Darken text colors by 25% if not black */
+body, p, a, .text-sm, .text-xs, address, blockquote {
+    color: #686F7D !important;
+}
+
+/* Keep headings white but ensure they're visible */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #fff !important;
+}
+
+/* Darken other text elements */
+.pricing-table-price-currency, .pricing-table-features li {
+    color: #686F7D !important;
+}
+
+.site-footer a {
+    color: #686F7D !important;
+}
+

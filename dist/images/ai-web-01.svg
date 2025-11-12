@@ -1,0 +1,24 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern Webpage Template 1 -->
+  <rect width="200" height="150" fill="#ffffff"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="200" height="25" fill="#2c3e50"/>
+  <rect x="10" y="5" width="40" height="15" fill="#3498db" rx="2"/>
+  <rect x="150" y="8" width="15" height="9" fill="#ecf0f1" rx="1"/>
+  <rect x="170" y="8" width="15" height="9" fill="#ecf0f1" rx="1"/>
+  <!-- Hero Section -->
+  <rect x="0" y="25" width="200" height="50" fill="#ecf0f1"/>
+  <rect x="20" y="35" width="80" height="8" fill="#34495e" rx="1"/>
+  <rect x="20" y="48" width="120" height="6" fill="#95a5a6" rx="1"/>
+  <rect x="20" y="58" width="60" height="12" fill="#3498db" rx="2"/>
+  <!-- Content Section -->
+  <rect x="0" y="75" width="200" height="75" fill="#ffffff"/>
+  <rect x="10" y="85" width="85" height="50" fill="#ecf0f1" rx="2"/>
+  <rect x="10" y="85" width="85" height="12" fill="#bdc3c7" rx="1"/>
+  <rect x="10" y="100" width="85" height="8" fill="#bdc3c7" rx="1"/>
+  <rect x="10" y="112" width="60" height="8" fill="#bdc3c7" rx="1"/>
+  <rect x="105" y="85" width="85" height="50" fill="#ecf0f1" rx="2"/>
+  <rect x="105" y="85" width="85" height="12" fill="#bdc3c7" rx="1"/>
+  <rect x="105" y="100" width="85" height="8" fill="#bdc3c7" rx="1"/>
+  <rect x="105" y="112" width="60" height="8" fill="#bdc3c7" rx="1"/>
+</svg>
